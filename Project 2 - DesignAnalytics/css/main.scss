@@ -1,0 +1,16 @@
+@use 'variables';
+@use 'global';
+
+// Header
+
+header.primary{
+    display: flex;
+    justify-content: space-between;
+}
+.user img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}

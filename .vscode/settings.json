@@ -1,0 +1,21 @@
+{
+    "liveServer.settings.port": 5501,
+    "cSpell.words": [
+        "adipisicing",
+        "amet",
+        "consectetur",
+        "elit",
+        "Nulla",
+        "omnis",
+        "quas",
+        "repellat"
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:CSS-Tasks}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
+}

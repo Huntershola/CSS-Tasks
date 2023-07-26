@@ -1,0 +1,10 @@
+body{
+    margin:0 ;
+    display: flex;
+    place-items: center;
+    height: 100vh;
+}
+.card{
+    padding: 3em;
+    font-size: 2em;
+}
