@@ -1,16 +1,52 @@
 @use 'variables';
 @use 'global';
 
-// Header
+/* Header */
 
-header.primary{
+header.primary {
     display: flex;
     justify-content: space-between;
 }
-.user img{
+
+header svg {
+    width: 42px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+header.primary, .user {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.user img {
     width: 30px;
     height: 30px;
     object-fit: cover;
     border-radius: 50%;
+}
 
+a.logo img {
+    width: 170px;
+}
+
+/* Mobile Menu */
+
+aside {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    background: var(--primary-color);
+    width: 40%;
+    padding: 3em;
+    text-align: right;
+    transition: transform .6s;
+    transform: translateX(100%);
 }

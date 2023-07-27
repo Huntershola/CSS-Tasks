@@ -1,88 +1,93 @@
 :root {
-    --primary-color: #5e85f8;
-    --secondary-color: #292B31;
-    --link-color: #BAC2D9;
-    --border-color: #464A56;
-    --inner-panel-color: #32343C;
+  --primary-color: #5E85F8;
+  --secondary-color: #292B31;
+  --link-color: #BAC2D9;
+  --border-color: #464A56;
+  --inner-panel-color: #32343C;
 }
 
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-body{
-    margin: 0;
-    background-color: #1F2023;
-    font-family: 'inter', sans-serif;
+
+body {
+  margin: 0;
+  background-color: #1F2023;
+  font-family: "Inter", sans-serif;
 }
+
 .wrapper {
-    margin: 2em;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li, p, a {
-    font-size: 1.6rem;
-  }
-  
-  a {
-    color: var(--link-color);
-    text-decoration: none;
-    font-family: "Inter", sans-serif;
-  }
-  
-  p {
-    font-size: 1.6em;
-  }
-  
-  svg {
-    width: 100%;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: border-box;
-  }
-  /* Utils */
+  margin: 2em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li, p, a {
+  font-size: 1.6rem;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  font-size: 1.6em;
+}
+
+svg {
+  width: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Utils */
 .hide-mobile {
   display: none;
 }
 
 @media only screen and (min-width: 620px) {
-    .hide-tablet {
-      display: none;
-    }
+  .hide-tablet {
+    display: none;
   }
-
-  /* Header */
-
-header.primary{
-    display: flex;
-    justify-content: space-between;
 }
-header svg{
-    width: 42px;
+/* Header */
+header.primary {
+  display: flex;
+  justify-content: space-between;
 }
 
-.header-right{
-    display: flex;
-    align-items: center;
-    gap:2em;
+header svg {
+  width: 42px;
 }
 
-header.primary, .user{
-    display: flex;
-    gap: 1em;
-    align-items: center;
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 2em;
 }
-.user img{
-    width: 30px;
-    height: 30px;
-    object-fit: cover;
-    border-radius: 50%;
+
+header.primary, .user {
+  display: flex;
+  gap: 1em;
+  align-items: center;
 }
-a.logo img{
-    width: 170px;
+
+.user img {
+  width: 30px;
+  height: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+a.logo img {
+  width: 170px;
 }
